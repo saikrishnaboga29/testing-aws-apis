@@ -13,8 +13,8 @@ const port = 3000;
 
 // AWS Configuration
 AWS.config.update({
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    accessKeyId: process.env.your_access_key_id,
+    secretAccessKey: process.env.your_secret_access_key,
     region: 'ap-southeast-2' // Asia Pacific (Sydney) region
 });
 

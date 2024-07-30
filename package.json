@@ -1,0 +1,24 @@
+{ 
+  "name": "testing-node-vercel-app",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "aws-sdk": "^2.1000.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.3",
+    "uuid": "^8.3.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vercel": "^35.2.1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
